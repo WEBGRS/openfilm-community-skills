@@ -21,7 +21,9 @@ script only where it gives the agent something it cannot get another way.
 | [app-demo](https://github.com/WEBGRS/openfilm-app-demo) | A demo of a Windows program filmed while you work it, with a smooth pointer and a camera that moves in on each click | Windows 10 or 11, FFmpeg 8 | MIT |
 | [preview-first](https://github.com/WEBGRS/openfilm-preview-first) | The whole film as placeholder cards within minutes, then pictures, then sound, each after you approve; paid use counted before it is spent | nothing | MIT |
 | [talking-head](https://github.com/WEBGRS/openfilm-talking-head) | A talking-to-camera recording without the ums, stumbles and dead air, cut only in pauses, with key words, a name card and a cover | a transcription service in OpenFilm | MIT |
-| [video spec template](https://github.com/WEBGRS/openfilm-skill-template) | Not a film: a blank template for writing your own rules (rhythm, pictures, subtitles, sound) as a skill, and a filled-in explainer example | nothing | MIT |
+| [dub](https://github.com/WEBGRS/openfilm-dub) | A voiced film in another language: the voice-over said again, text and subtitles translated, every picture still on its word | a voice-over service with voices in that language | MIT |
+| [footage-cut](https://github.com/WEBGRS/openfilm-footage-cut) | A film cut from your own clips, each shot chosen for what is being said, to your narration or the story in the footage; its script logs a folder of clips shot by shot | FFmpeg; a transcription service for clips with speech | MIT |
+| [video spec template](https://github.com/WEBGRS/openfilm-skill-template) | Not a film: blank templates for writing your own rules (rhythm, pictures, subtitles, sound) and a series (opening, closing and subtitle look copied into every episode) as skills, and a filled-in explainer example | nothing | MIT |
 
 Not a skill, but made for OpenFilm: [local-voice](https://github.com/WEBGRS/openfilm-local-voice), voice-over made on
 your own computer (Kokoro voices, and Qwen3-TTS for higher quality or your own voice) with timed subtitles. Add it in
