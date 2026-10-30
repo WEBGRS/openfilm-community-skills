@@ -27,8 +27,8 @@
 | 技能 | 做什么 | 基于 | 许可证 |
 | --- | --- | --- | --- |
 | [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 从网页项目做产品宣传片：真实页面截取、镜头卡片、踩拍剪辑 | Remotion | Apache-2.0；它的 README 提醒公司使用可能要买 Remotion 授权 |
-| [xilo-opus-video](https://github.com/Kianzzz/xilo-opus-video/tree/main/skills/xilo-opus-video) | 先给三个方案、各带预览，选定后写成代码页面渲染成 MP4 | Playwright、FFmpeg | MIT |
-| [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar/tree/main/plugin/skills/lemo-opuscar) | 用代码做短片，可选它库里的画风，也可以自己定；也能用真实素材做解说、用档案影像剪片 | 自己的逐帧渲染器 | 代码 MIT；三条演示配音不在许可范围内 |
+| [xilo-opus-video](https://github.com/Kianzzz/xilo-opus-video/tree/main/skills/xilo-opus-video) | 先给三个方案、各带预览，选定后写成代码页面渲染成 MP4 | Canvas、WebGL、Three.js、Remotion 等 | MIT |
+| [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar/tree/main/plugin/skills/lemo-opuscar) | 用代码做短片，可选它库里的画风，也可以自己定；也能用真实素材做解说、用档案影像剪片 | 自己的逐帧渲染器 | 代码和文档 MIT；样片 CC BY 4.0，其中三条演示配音除外 |
 | [huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | 艺术画面和科普动画，36 种风格；需求书是中文 | Python、Playwright | MIT，人物形象、笔画数据和字体除外 |
 | [dashi-animationstyle](https://github.com/chuspeeism/dashi-animationstyle) | 把 15 到 60 秒的中文口播录音做成 1080p 带字幕的视频，7 种手绘风格可选 | Canvas、无头 Chrome | MIT，示例录音除外 |
 | [wtt-code-animation-studio](https://github.com/WaterDJiang/Wattter_openSkills/tree/main/wattter_skills/wtt-code-animation-studio) | 从想法、文章或稿子出中文脚本、分镜、可改的源码和带声音的视频 | Canvas 或 p5.js | 没有许可证文件；仓库 README 写的是 CC BY-NC-SA 4.0，不可商用 |

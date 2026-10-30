@@ -6,7 +6,7 @@ skills people use alongside it. OpenFilm's own Discover page lists only the offi
 
 ## Add one
 
-In OpenFilm, open Skills, choose **Add skill** and paste the link from the table. A link to a folder inside a repository
+In OpenFilm, open Skills, choose **Add a skill** and paste the link from the table. A link to a folder inside a repository
 (`.../tree/main/<folder>`) works too. From a terminal: `npx openfilm skill add <link>`. A skill added to OpenFilm is on
 in every project; you can turn it off in Skills.
 
@@ -36,8 +36,8 @@ Read each licence before you publish what you make with it.
 | Skill | What it makes | Built on | Licence |
 | --- | --- | --- | --- |
 | [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | Product promo films from a web project: real page captures, shot cards, cuts on the beat | Remotion | Apache-2.0; its README notes that companies may need a paid Remotion licence |
-| [xilo-opus-video](https://github.com/Kianzzz/xilo-opus-video/tree/main/skills/xilo-opus-video) | Three plans for a video with a preview each, then the chosen one built as a code page and rendered to MP4 | Playwright, FFmpeg | MIT |
-| [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar/tree/main/plugin/skills/lemo-opuscar) | Short films made in code in one of its library's styles, or one you make yourself; explainers from real material and films cut from archive footage | its own frame-by-frame renderer | MIT for the code; three demo voice tracks are excluded |
+| [xilo-opus-video](https://github.com/Kianzzz/xilo-opus-video/tree/main/skills/xilo-opus-video) | Three plans for a video with a preview each, then the chosen one built as a code page and rendered to MP4 | Canvas, WebGL, Three.js, Remotion and others | MIT |
+| [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar/tree/main/plugin/skills/lemo-opuscar) | Short films made in code in one of its library's styles, or one you make yourself; explainers from real material and films cut from archive footage | its own frame-by-frame renderer | MIT for code and docs; demo films CC BY 4.0, except three demo voice tracks |
 | [huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | Art and science-explainer animation in 36 styles; the brief is in Chinese | Python, Playwright | MIT, except its character art, stroke data and fonts |
 | [dashi-animationstyle](https://github.com/chuspeeism/dashi-animationstyle) | 15 to 60 seconds of your Chinese voice recording made into a 1080p video with subtitles, in one of 7 drawn styles | Canvas, headless Chrome | MIT, except the example recording |
 | [wtt-code-animation-studio](https://github.com/WaterDJiang/Wattter_openSkills/tree/main/wattter_skills/wtt-code-animation-studio) | An idea, article or script turned into a Chinese script, a storyboard, editable source and a video with sound | Canvas or p5.js | No licence file; the repository's README says CC BY-NC-SA 4.0, non-commercial |
