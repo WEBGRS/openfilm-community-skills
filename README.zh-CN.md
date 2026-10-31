@@ -18,6 +18,8 @@
 | [talking-head](https://github.com/WEBGRS/openfilm-talking-head) | 口播精剪：去掉口癖、卡壳和空档，只在停顿处下刀；加重点词、人物名片和封面 | OpenFilm 里连好一个语音转写服务 | MIT |
 | [dub](https://github.com/WEBGRS/openfilm-dub) | 换语种配音：把配好音的片子做成另一种语言，重新配音，画面文字和字幕一起换，每个画面仍然踩在它的词上 | 有该语言音色的配音服务 | MIT |
 | [footage-cut](https://github.com/WEBGRS/openfilm-footage-cut) | 素材剪成片：用你自己拍的素材剪，每个镜头配着当时说的话（你的解说，或素材里讲的故事）；脚本把一文件夹素材按镜头列清楚 | FFmpeg；素材里有人说话的，要语音转写服务 | MIT |
+| [case-film](https://github.com/WEBGRS/openfilm-case-film/tree/main/skills/case-film) | 案件解说片：讲一个真实案件，每句旁白配真实素材或证据，人名、日期、聊天记录和地图画在上面；一个 case.json 就是镜头表 | FFmpeg；地图要天地图密钥（或别的瓦片图源） | MIT |
+| [film-check](https://github.com/WEBGRS/openfilm-case-film/tree/main/skills/film-check) | 不是做片：成片逐帧逐秒检查白闪、跳帧、静止过久、黑帧、爆音、字被遮挡、画面发糊，每处给出时间 | FFmpeg；查遮挡要 Chrome 或 Chromium | MIT |
 | [视频规范模板](https://github.com/WEBGRS/openfilm-skill-template) | 不直接出片：空白模板，把你自己的规矩（节奏、画面、字幕、声音）和系列（每期复制同一个片头、片尾和字幕样式）写成技能，附一个填好的科普短片样例 | 无 | MIT |
 
 不是技能，但为 OpenFilm 做的：[local-voice](https://github.com/WEBGRS/openfilm-local-voice)，在你自己电脑上配音（Kokoro 音色；要更好的音质或用你自己的声音，走 Qwen3-TTS），带逐字时间的字幕。在 设置 → 服务商 → 自定义服务 里添加。
