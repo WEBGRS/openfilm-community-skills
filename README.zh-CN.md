@@ -21,6 +21,7 @@
 | [beat-cut](https://github.com/WEBGRS/openfilm-beat-cut) | 音乐卡点：跟着音乐剪，每次换画面都踩在拍子上，换场景落在小节开头，最好的镜头放在音乐起来的地方；脚本先测音乐，再逐个检查剪辑点离最近的拍子差几帧 | FFmpeg | MIT |
 | [borrow-style](https://github.com/WEBGRS/openfilm-borrow-style) | 剪同款：用你自己的素材套上你喜欢的片子的包装（节奏、剪法、色调、字幕和声音），不用它的任何内容，再把这套包装存成你自己的风格技能 | FFmpeg | MIT |
 | [reframe](https://github.com/WEBGRS/openfilm-reframe) | 横屏转竖屏：把横屏素材改成 9:16、方形或 4:5，每个镜头裁到最要紧的东西上，主体动了画框才跟着动；脚本逐个镜头测量，并把裁切框画出来供检查 | FFmpeg | MIT |
+| [pip-promo](https://github.com/WEBGRS/openfilm-pip-promo) | 小窗口播带货：产品的真实界面占满画面，说到哪个功能就切到哪个画面，说话的人在小窗里，小窗避开正在演示的地方；脚本逐个镜头摆放小窗，并逐帧检查 | FFmpeg；OpenFilm 里的转写服务 | MIT |
 | [case-film](https://github.com/WEBGRS/openfilm-case-film/tree/main/skills/case-film) | 案件解说片：讲一个真实案件，每句旁白配真实素材或证据，人名、日期、聊天记录和地图画在上面；一个 case.json 就是镜头表 | FFmpeg；地图要天地图密钥（或别的瓦片图源） | MIT |
 | [film-check](https://github.com/WEBGRS/openfilm-case-film/tree/main/skills/film-check) | 不是做片：成片逐帧逐秒检查白闪、跳帧、静止过久、黑帧、爆音、字被遮挡、画面发糊，每处给出时间 | FFmpeg；查遮挡要 Chrome 或 Chromium | MIT |
 | [视频规范模板](https://github.com/WEBGRS/openfilm-skill-template) | 不直接出片：空白模板，把你自己的规矩（节奏、画面、字幕、声音）和系列（每期复制同一个片头、片尾和字幕样式）写成技能，附一个填好的科普短片样例 | 无 | MIT |
